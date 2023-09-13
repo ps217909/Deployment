@@ -1,0 +1,40 @@
+#tabelB
+{
+   margin-top: 30px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#B
+{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; 
+}
+
+td
+{
+    padding: 20px;
+}
+
+th
+{
+    padding: 10px;
+    text-align: left;
+}
+
+input
+{
+    max-width: 50px;
+}
+
+#tabel
+{
+    width: 90%;
+}
+
+#Background
+{
+    background-color: #444;
+    color: white;
+}

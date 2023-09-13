@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC>
+<html lang="nl">
+
+<!-- Hier heb ik alles gelinkt-->
+
+<head>
+    <link rel="shortcut icon" href="Afb/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Mario Pasta's</title>
+    <link rel="stylesheet" href="css/Pp.css">
+    <link rel="stylesheet" href="css/Menu.css">
+    <script src="Java.js"></script>
+</head>
+
+<!-- Hier onder zijn de menu knoppen-->
+
+<body>
+    <div id="centered">
+        <div class="menu">
+            <a href="Index.html" class="active">Home</a>
+            <a href="Pizza.html">Pizza's</a>
+            <a href="Pasta.html">Pasta's</a>
+            <a href="Bestel.html">Bestellen</a>
+            <a href="Cursus.html">Cursus</a>
+            <a href="Overons.html">Over ons</a>
+            <a href="Login.html">Login</a>
+        </div>
+        <h1>Personeelspagina</h1>
+        <p>Berekenen van de kostprijs van een pizza</p>
+        <p>Let op, een pizza van 35cm is 1,96 keer zo groot als de pizza van 25 cm</p>
+    <table>
+        <tr>
+            <th>Ingrediënt</th>
+            <th>Prijs per kilo</th>
+            <td><strong> nodig </strong>voor pizza<br> 25 cm
+                
+                (in gram)</td>
+            <th>Pizza
+                <br>
+                (25 centimeter)</th>
+            <th>Pizza
+                <br>
+                (35 centimeter)</th>
+
+        </tr>
+
+        <!-- Hier onder staat de code voor de tabel -->
+
+        <tr>
+            <td><input id="TBIng-1" type="text"></td>
+            <td><input id="TBPPK-1" type="number"></td>
+            <td><input id="TBNodig-1" type="number"></td>
+            <td><input id="TBP25-1" type="text" readonly></td>
+            <td><input id="TBP35-1" type="text" readonly></td>
+        </tr>
+        <tr>
+            <td><input id="TBIng-2" type="text"></td>
+            <td><input id="TBPPK-2" type="number"></td>
+            <td><input id="TBNodig-2" type="number"></td>
+            <td><input id="TBP25-2" type="text" readonly></td>
+            <td><input id="TBP35-2" type="text" readonly></td>
+        </tr>
+        <tr>
+            <td><input id="TBIng-3" type="text"></td>
+            <td><input id="TBPPK-3" type="number"></td>
+            <td><input id="TBNodig-3" type="number"></td>
+            <td><input id="TBP25-3" type="text" readonly></td>
+            <td><input id="TBP35-3" type="text" readonly></td>
+        </tr>
+        <tr>
+            <td><input id="TBIng-4" type="text"></td>
+            <td><input id="TBPPK-4" type="number"></td>
+            <td><input id="TBNodig-4" type="number"></td>
+            <td><input id="TBP25-4" type="text" readonly></td>
+            <td><input id="TBP35-4" type="text" readonly></td>
+        </tr>
+        <tr>
+            <td><input id="TBIng-5" type="text"></td>
+            <td><input id="TBPPK-5" type="number"></td>
+            <td><input id="TBNodig-5" type="number"></td>
+            <td><input id="TBP25-5" type="text" readonly></td>
+            <td><input id="TBP35-5" type="text" readonly></td>
+        </tr>
+        <tr>
+            <td><input id="TBIng-6" type="text"></td>
+            <td><input id="TBPPK-6" type="number"></td>
+            <td><input id="TBNodig-6" type="number"></td>
+            <td><input id="TBP25-6" type="text" readonly></td>
+            <td><input id="TBP35-6" type="text" readonly></td>
+        </tr>
+        <tr>
+            <td><input id="TBIng-7" type="text"></td>
+            <td><input id="TBPPK-7" type="number"></td>
+            <td><input id="TBNodig-7" type="number"></td>
+            <td><input id="TBP25-7" type="text" readonly></td>
+            <td><input id="TBP35-7" type="text" readonly></td>
+        </tr>
+        <tr>
+            <td><input id="TBIng-8" type="text"></td>
+            <td><input id="TBPPK-8" type="number"></td>
+            <td><input id="TBNodig-8" type="number"></td>
+            <td><input id="TBP25-8" type="text" readonly></td>
+            <td><input id="TBP35-8" type="text" readonly></td>
+        </tr>
+    </table>
+    <p class="input1"><input id="TB25CM_UITKOMST" placeholder="kostprijs pizza 25cm" class="input1" type="text" readonly></p>
+    <p class="input1"><input id="TB35CM_UITKOMST" placeholder="kostprijs pizza 35cm" class="input1" type="text" readonly></p>
+    <p class="input1"><input class="input1" type="button" onclick="MyPrizePizza()" value="Bereken Prijs"></p>
+
+    <!-- Dit zijn de footers -->
+
+    <footer style="float: left;">&copy; 2020-2025 Mario Bressanone </footer>
+      <footer style="float: right;"> <a href="alv.html" target="blank">Levervoorwaarden</a></footer>
+</div>
+</body>
+
+</html>

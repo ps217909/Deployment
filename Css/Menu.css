@@ -1,0 +1,25 @@
+.menu
+{
+    background-color: #444;
+    overflow: hidden;
+}
+.menu a 
+{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.menu a:hover 
+{
+    background-color:rgb(206,43,55);
+    color: black;
+}
+.menu a.active 
+{
+    background-color: rgb(0,146,70) ;
+}
